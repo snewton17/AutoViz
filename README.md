@@ -5,9 +5,11 @@ AutoViz (Automatic Visualization) is a python library used for generating insigh
 To begin using Autoviz, we must first install it and import AutoViz_Class. We then instantiate a class. %matplotlib inline is needed to display charts inline. We are then able to give AutoViz our desired dataset and it will automatically return visualizations. 
 
 pip install autoviz ​
+
 from autoviz.AutoViz_Class import AutoViz_Class​
 
 AV = AutoViz_Class()​
+
 %matplotlib inline​
 
 df = AV.AutoViz('bikes.csv')​
