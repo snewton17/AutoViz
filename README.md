@@ -39,6 +39,18 @@ max_cols_analyzed=30: Set the maximum columns to be analyzed. 30 is the default�
 
 save_plot_dir=None: Directory for saving plots. None is default, which saves the plots in current directory​
 
+## Chart Format
+
+If Chart_format = Svg, png or jpg, then matplot lib charts are plotted in line in Jupyter Notebooks​
+
+If Chart_format = Bokeh, then interactive Bokeh charts are plotted​
+
+If Chart_format = Server,then dashboards will pop up in browser​
+
+If Chart_format = HTML, then interactive Bokeh charts will be created and saved as an HTML under 'AutoViz_Plots' directory ​
+
+If 'bokeh', 'server', or 'html' format are desired, use PyCharm. 'Svg', 'png' and 'jpg' are fine to use in Jupyter Notebooks​
+
 ## FixDQ() Function 
 AutoViz provides data quality assessment by default and helps you fix data quality issues using the FixDQ() function​. 
 
